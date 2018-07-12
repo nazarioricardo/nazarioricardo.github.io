@@ -2713,7 +2713,7 @@
 		}
 
 	#header {
-		color: #0f7173;
+		color: #19aaac;
 		cursor: default;
 		height: 3.25em;
 		left: 0;
@@ -2731,7 +2731,7 @@
 		}
 
 		#header .logo {
-			color: #0f7173;
+			color: #19aaac;
 			display: inline-block;
 			font-weight: 400;
 			height: inherit;
@@ -2745,7 +2745,7 @@
 		}
 
 			#header .logo strong {
-				color: #0f7173;
+				color: #19aaac;
 				font-weight: 600;
 			}
 
