@@ -6,23 +6,23 @@
 -->
 <html>
 	<head>
-		<title>Projection by TEMPLATED</title>
+		<title>Ricardo Nazario</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" type="image" href="favicon.ico" />
 	</head>
 	<body>
 
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<a href="index.html" class="logo"><strong>Projection</strong> by TEMPLATED</a>
+					<a href="#banner" class="logo"><strong>RN</strong></a>
 					<nav id="nav">
-						<a href="index.html">Home</a>
-						<a href="generic.html">Generic</a>
-						<a href="elements.html">Elements</a>
+						<a href="#three">Projects</a>
+						<a href="#footer">Contact</a>
 					</nav>
-					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+					<!-- <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a> -->
 				</div>
 			</header>
 
@@ -30,20 +30,26 @@
 			<section id="banner">
 				<div class="inner">
 					<header>
-						<h1>Welcome to Projection</h1>
+						<div class="image round">
+							<img src="images/portrait.jpg" alt="Me" />
+						</div>
+						<header>
+							<h3>Ricardo Nazario</h3>
+						</header>
+						<p>Software Developer in Puerto Rico</p>
 					</header>
 
-					<div class="flex ">
+					<!-- <div class="flex ">
 
 						<div>
 							<span class="icon fa-car"></span>
-							<h3>Aliquam</h3>
+							<h3>Adaptive</h3>
 							<p>Suspendisse amet ullamco</p>
 						</div>
 
 						<div>
 							<span class="icon fa-camera"></span>
-							<h3>Elementum</h3>
+							<h3>Creative</h3>
 							<p>Class aptent taciti ad litora</p>
 						</div>
 
@@ -53,11 +59,11 @@
 							<p>Nulla vitae mauris non felis</p>
 						</div>
 
-					</div>
+					</div> -->
 
-					<footer>
+					<!-- <footer>
 						<a href="#" class="button">Get Started</a>
-					</footer>
+					</footer> -->
 				</div>
 			</section>
 
@@ -65,31 +71,53 @@
 		<!-- Three -->
 			<section id="three" class="wrapper align-center">
 				<div class="inner">
-					<div class="flex flex-2">
+					<div class="flex flex-3">
 						<article>
 							<div class="image round">
-								<img src="images/pic01.jpg" alt="Pic 01" />
+								<img src="images/ng.png" alt="Pic 02" />
 							</div>
 							<header>
-								<h3>Lorem ipsum<br /> dolor amet nullam</h3>
+								<h3>Neuss Games</h3>
+								<p>Founder and Developer</p>
 							</header>
-							<p>Morbi in sem quis dui placerat ornare. Pellentesquenisi<br />euismod in, pharetra a, ultricies in diam sed arcu. Cras<br />consequat  egestas augue vulputate.</p>
+							<p>Pellentesque fermentum dolor. Aliquam quam lectus
+								<br />facilisis auctor, ultrices ut, elementum vulputate, nunc
+								<br /> blandit ellenste egestagus commodo.
+							</p>
 							<footer>
-								<a href="#" class="button">Learn More</a>
+								<a href="https://nazarioricardo.github.io/neuss/" target="_blank" class="button">Learn More</a>
 							</footer>
 						</article>
 						<article>
+							<div class="image round">
+								<img src="https://proxy.duckduckgo.com/iur/?f=1&image_host=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2F736x%2F7d%2Fab%2F78%2F7dab784cf198d1a9b7e6b549933919e9.jpg&u=https://i.pinimg.com/736x/7d/ab/78/7dab784cf198d1a9b7e6b549933919e9.jpg" alt="Remidi T8" />
+							</div>
+							<header>
+								<h3>Remidi</h3>
+								<p>iOS/OSX Developer</p>
+							</header>
+							<p>Morbi in sem quis dui placerat ornare. Pellentesquenisi
+								<br />euismod in, pharetra a, ultricies in diam sed arcu. Cras
+								<br />consequat egestas augue vulputate.</p>
+							<footer>
+								<a href="https://www.remidi-pro.com" target="_blank" class="button">Learn More</a>
+							</footer>
+						</article>
+						<!-- <article>
 							<div class="image round">
 								<img src="images/pic02.jpg" alt="Pic 02" />
 							</div>
 							<header>
-								<h3>Sed feugiat<br /> tempus adipicsing</h3>
+								<h3>Zario</h3>
+								<p>Creator and Developer</p>
 							</header>
-							<p>Pellentesque fermentum dolor. Aliquam quam lectus<br />facilisis auctor, ultrices ut, elementum vulputate, nunc<br /> blandit ellenste egestagus commodo.</p>
+							<p>Pellentesque fermentum dolor. Aliquam quam lectus
+								<br />facilisis auctor, ultrices ut, elementum vulputate, nunc
+								<br /> blandit ellenste egestagus commodo.</p>
 							<footer>
 								<a href="#" class="button">Learn More</a>
 							</footer>
-						</article>
+						</article> -->
 					</div>
 				</div>
 			</section>
@@ -111,6 +139,10 @@
 							<input name="email" id="email" type="email" placeholder="Email">
 						</div>
 						<div class="field">
+								<label for="subject">Subject</label>
+								<input name="subject" id="subject" type="text" placeholder="Subject">
+							</div>
+						<div class="field">
 							<label for="message">Message</label>
 							<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
 						</div>
@@ -119,9 +151,9 @@
 						</ul>
 					</form>
 
-					<div class="copyright">
+					<!-- <div class="copyright">
 						&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
-					</div>
+					</div> -->
 
 				</div>
 			</footer>
